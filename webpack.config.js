@@ -44,7 +44,9 @@ module.exports = function(env) {
         }
       }),
     ].filter(p => p),
-    devtool: 'source-map',
+    // devtool: 'source-map',
+    devtool: 'none',
+    
     devServer: {
       port: 5650,
       publicPath: '/build/'
